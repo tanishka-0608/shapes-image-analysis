@@ -1,0 +1,15 @@
+SHAPES DATASET - ANALYSIS SUMMARY
+========================================
+Images analysed        : 5400
+Missing / corrupt files: 0 / 0
+Duplicate images       : 0
+Cross-split leakage    : 0
+Class imbalance ratio  : 1.0
+
+Model results (accuracy):
+  Colour-only RF (bias check)    val 0.1852 | test 0.1691
+  Logistic Regression            val 1.0000 | test 0.9988
+  Random Forest                  val 1.0000 | test 1.0000
+
+Best shape model: Random Forest
+Top features: n_vertices, radial_cv, radial_min_max, solidity, extent

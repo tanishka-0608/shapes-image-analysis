@@ -1,0 +1,67 @@
+{
+  "audit": {
+    "n_records": 5400,
+    "missing_files": 0,
+    "corrupt_files": 0,
+    "unique_image_sizes": [
+      "(64, 64)"
+    ],
+    "unique_image_modes": [
+      "RGB"
+    ],
+    "duplicate_images": 0,
+    "label_folder_mismatch": 0,
+    "null_values": 0,
+    "class_counts": {
+      "circle": 900,
+      "cross": 900,
+      "pentagon": 900,
+      "square": 900,
+      "star": 900,
+      "triangle": 900
+    },
+    "split_counts": {
+      "train": 3780,
+      "val": 810,
+      "test": 810
+    },
+    "imbalance_ratio_max_min": 1.0,
+    "cross_split_leaks": 0
+  },
+  "pca_explained_variance_pc1_pc2": [
+    0.48054447090930713,
+    0.21743990099793808
+  ],
+  "models": {
+    "Colour-only RF (bias check)": {
+      "val_accuracy": 0.18518518518518517,
+      "val_macro_f1": 0.18483834395711018,
+      "test_accuracy": 0.16913580246913582,
+      "test_macro_f1": 0.1681922332933361
+    },
+    "Logistic Regression": {
+      "val_accuracy": 1.0,
+      "val_macro_f1": 1.0,
+      "test_accuracy": 0.9987654320987654,
+      "test_macro_f1": 0.9987654151634454,
+      "cv_accuracy_mean": 0.9997354497354497,
+      "cv_accuracy_std": 0.0005291005291005124
+    },
+    "Random Forest": {
+      "val_accuracy": 1.0,
+      "val_macro_f1": 1.0,
+      "test_accuracy": 1.0,
+      "test_macro_f1": 1.0,
+      "cv_accuracy_mean": 1.0,
+      "cv_accuracy_std": 0.0
+    }
+  },
+  "best_model": "Random Forest",
+  "top_features": {
+    "n_vertices": 0.2473,
+    "radial_cv": 0.2048,
+    "radial_min_max": 0.1937,
+    "solidity": 0.1418,
+    "extent": 0.1261
+  }
+}

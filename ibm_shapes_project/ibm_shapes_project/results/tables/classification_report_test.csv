@@ -1,0 +1,10 @@
+,precision,recall,f1-score,support
+circle,1.0,1.0,1.0,135.0
+cross,1.0,1.0,1.0,135.0
+pentagon,1.0,1.0,1.0,135.0
+square,1.0,1.0,1.0,135.0
+star,1.0,1.0,1.0,135.0
+triangle,1.0,1.0,1.0,135.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,1.0,1.0,1.0,810.0
+weighted avg,1.0,1.0,1.0,810.0
